@@ -1,0 +1,14 @@
+#root {
+  flex: 1;
+  text-align: center;
+}
+
+@keyframes rainEffect {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 100%; }
+}
+
+@keyframes snowEffect {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 100%; }
+}
