@@ -26,30 +26,6 @@ function App() {
     }
   }
 
-  const getWeatherClass = () => {
-    if (!weather) return 'default-weather';
-    const main = weather.weather[0].main.toLowerCase();
-
-    switch (main) {
-      case 'clear':
-        return 'bg-clear';
-      case 'clouds':
-        return 'bg-clouds';
-      case 'rain':
-      case 'drizzle':
-        return 'bg-rain';
-      case 'snow':
-        return 'bg-snow';
-      case 'thunderstorm':
-        return 'bg-thunder';
-      case 'mist':
-      case 'fog':
-        return 'bg-fog';
-      default:
-        return 'default-weather';
-    }
-  };
-
   const getWeatherVideo = () => {
     if (!weather) return 'https://db8g7ep6sj3uzmz9.public.blob.vercel-storage.com/clear-lwkR39416b1WuAUwiGPuqobhihpSYe.mp4';
     const main = weather.weather[0].main.toLowerCase();
