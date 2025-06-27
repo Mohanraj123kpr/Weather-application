@@ -52,4 +52,9 @@ You can get your API key from https://openweathermap.org/api
 
 npm run dev
 Open your browser at http://localhost:5173
+![Screenshot from 2025-06-27 10-46-43](https://github.com/user-attachments/assets/91230ad6-cdab-42e1-a1a0-b9b29eff5145)
+![Screenshot from 2025-06-27 10-47-02](https://github.com/user-attachments/assets/4fb32ecb-287b-4d2c-bb9b-2f8584a39303)
+![Screenshot from 2025-06-27 10-46-55](https://github.com/user-attachments/assets/17725b7f-0d95-4284-99fd-2dcfff428067)
+
+
 
